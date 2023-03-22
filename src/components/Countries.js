@@ -11,7 +11,7 @@ const Countries = () => {
         .then(data => setCountries(data))
     },[])
     return (
-            <div>
+            <div className='grid grid-cols-3 gap-4 mt-9'>
             {
                 countries.map(country=> <Country key={country.cca3} country={country}></Country>)
             }         
