@@ -11,11 +11,11 @@ const Countries = () => {
         .then(data => setCountries(data))
     },[])
     return (
-        <div>
+            <div>
             {
                 countries.map(country=> <Country key={country.cca3} country={country}></Country>)
             }         
-        </div>
+            </div>
     );
 };
 
