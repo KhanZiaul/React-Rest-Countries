@@ -1,5 +1,6 @@
 import './App.css';
 import Countries from './components/Countries';
+import Footer from './components/Footer';
 import Header from './components/Header';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className='p-4 bg-sky-500 text-white'>
       <Header></Header>
       <Countries></Countries>
+      <Footer></Footer>
     </div>
   );
 }
